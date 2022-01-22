@@ -6,6 +6,7 @@ import './App.css';
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import NavbarBrand from 'react-bootstrap/NavbarBrand';
 import Nav from 'react-bootstrap/Nav'
+import Footer from './components/Footer';
 
 // navbar
 class App extends React.Component {
@@ -52,6 +53,9 @@ class App extends React.Component {
               </Nav>
             </Navbar.Collapse>
             </Navbar>
+
+            <Footer />
+            
           </Container>
         </Router>
 
