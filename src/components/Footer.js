@@ -20,7 +20,7 @@ const Footer = () => {
             
           </Col>
           <Col xs lg="2">
-          <li><a href="https://stackoverflow.com/" target="_blank" rel="noopener noreferrer"><strong>            <FaStackOverflow
+          <li><a href="https://stackoverflow.com/users/15171296/jashawns?tab=profile/" target="_blank" rel="noopener noreferrer"><strong>            <FaStackOverflow
               size="3rem"
               className="social-icons"
           ></FaStackOverflow></strong></a></li>

@@ -28,7 +28,7 @@ class App extends React.Component {
       ], 
       home: {
         title: 'Be Relentless',
-        subtitle: 'Projects that make a difference',
+        subTitle: 'Projects that make a difference',
         text: 'Checkout my projects below'
       }, 
       about: {
@@ -70,13 +70,13 @@ class App extends React.Component {
             <Routes>
 {/* 
             <Route exact path="/" element={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} /> */}
-            <Route exact path="/" element={ <HomePage/> } />
+            <Route exact path="/" element={ <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/> } />
 
-            <Route path="/about" element={ <AboutPage/> } />
+            <Route path="/about" element={ <AboutPage title={this.state.home.title} /> } />
 
-            <Route path="/contact" element={ <ContactPage/> } />
+            <Route path="/contact" element={ <ContactPage title={this.state.home.title} /> } />
 
-            <Route path="/resume" element={ <ResumePage/> } />
+            <Route path="/resume" element={ <ResumePage title={this.state.home.title} /> } />
             </Routes>
             </Switch>
 
