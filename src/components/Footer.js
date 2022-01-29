@@ -28,7 +28,7 @@ const Footer = () => {
           </Col>
         </Row>
         <Col className="p-1 d-flex justify-content-end" lg={6}>
-                        This site was made by Jashawn Stewart.
+          Copyright © 2022 - Jashawn Stewart. All Rights Reserved.
         </Col>
       </Container>
     </footer>

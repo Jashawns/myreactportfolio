@@ -1,11 +1,13 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
+import Hero from '../components/Hero';
 
 function ResumePage(props) {
 
     return(
         <div className="bground">
         <Container>
+        <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
           <h1>Projects</h1>
           <p><a href="https://drive.google.com/file/d/1ORPKVPYk3E-ADSNCHpznTWBO988Dh9_-/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download my Resume</a></p>
 

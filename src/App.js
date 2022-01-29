@@ -29,22 +29,22 @@ class App extends React.Component {
         {title: 'Resume', path: '/resume'},
       ], 
       home: {
-        title: 'Be Relentless',
+        title: 'Be Relentless:',
+        subTitle: 'Projects that make a difference',
+      }, 
+      about: {
+        title: 'About Me:'
+      },
+      portfolio: {
+        title: 'Knowledge Base:',
         subTitle: 'Projects that make a difference',
         text: 'Checkout my projects below'
       }, 
-      about: {
-        title: 'About Me'
-      },
-      Portfolio: {
-        title: 'Knowledge Base',
-        subTitle: 'Projects that make a difference',
-      }, 
       contact: {
-        title: 'Let\'s Talk'
+        title: 'Let\'s Talk:'
       }, 
       resume: {
-        title: 'Credentials'
+        title: 'Credentials:'
       } 
     }
   }
@@ -52,20 +52,20 @@ class App extends React.Component {
   render() {
     return (
         <Router>
-          <Container className="p-0" color="#fff" fluid={true}>
+          <Container className="p-0" fluid={true}>
           <Navbar className="border-bottom" bg="transparent" expand="lg" >
-            <NavbarBrand>Testing Navbar</NavbarBrand>
+            <NavbarBrand>Welcome to Jashawn's Page</NavbarBrand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" color="#fff" />
             <NavbarCollapse id="navbar-toggle">
             {/* react router */}
               <Nav className="ms-auto">
 
-                <Link className="nav-link" color="#fff" to="/">Home</Link> 
-                <Link className="nav-link" color="#fff" to="/about">About</Link> 
-                <Link className="nav-link" color="#fff" to="/portfolio">Portfolio</Link> 
-                <Link className="nav-link" color="#fff" to="/contact">Contact</Link>
-                <Link className="nav-link" color="#fff" to="/resume">Resume</Link> 
+                <Link className="nav-link" to="/">Home</Link> 
+                <Link className="nav-link" to="/about">About</Link> 
+                <Link className="nav-link" to="/portfolio">Portfolio</Link> 
+                <Link className="nav-link" to="/contact">Contact</Link>
+                <Link className="nav-link" to="/resume">Resume</Link> 
 
               </Nav>
             </NavbarCollapse>
@@ -77,13 +77,13 @@ class App extends React.Component {
 
             <Route exact path="/" element={ <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} /> } />
 
-            <Route path="/about" element={ <AboutPage title={this.state.home.title} /> } />
+            <Route path="/about" element={ <AboutPage title={this.state.about.title} /> } />
 
-            <Route path="/portfolio" element={ <PortfolioPage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/> } />
+            <Route path="/portfolio" element={ <PortfolioPage title={this.state.portfolio.title} subTitle={this.state.portfolio.subTitle} text={this.state.portfolio.text}/> } />
 
-            <Route path="/contact" element={ <ContactPage title={this.state.home.title} /> } />
+            <Route path="/contact" element={ <ContactPage title={this.state.contact.title} /> } />
 
-            <Route path="/resume" element={ <ResumePage title={this.state.home.title} /> } />
+            <Route path="/resume" element={ <ResumePage title={this.state.resume.title} /> } />
             </Routes>
             </Switch>
 
