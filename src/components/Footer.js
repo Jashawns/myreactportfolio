@@ -27,7 +27,7 @@ const Footer = () => {
 
           </Col>
         </Row>
-        <Col className="p-0 d-flex justify-content-end" lg={6}>
+        <Col className="p-1 d-flex justify-content-end" lg={6}>
                         This site was made by Jashawn Stewart.
         </Col>
       </Container>

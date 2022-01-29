@@ -11,7 +11,7 @@ import weather from '../assets/images/weather.png';
 import workTracker from '../assets/images/workTracker.png';
 import yoda from '../assets/images/yoda.png';
 import passwordGen from '../assets/images/passwordGen.png';
-import { Container, Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 
 class Carousel extends React.Component {

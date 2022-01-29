@@ -9,7 +9,7 @@ import Nav from 'react-bootstrap/Nav';
 import Switch from 'react-bootstrap/Switch';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
-import PortfolioPage from './pages/PortfolioPage';
+import PortfolioPage from './pages/Portfolio';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import ResumePage from './pages/ResumePage';
@@ -52,21 +52,20 @@ class App extends React.Component {
   render() {
     return (
         <Router>
-          <Container className="p-0" fluid={true}>
-            <p>Hi from Jashawn's React</p>
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
+          <Container className="p-0" color="#fff" fluid={true}>
+          <Navbar className="border-bottom" bg="transparent" expand="lg" >
             <NavbarBrand>Testing Navbar</NavbarBrand>
 
-            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
+            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" color="#fff" />
             <NavbarCollapse id="navbar-toggle">
             {/* react router */}
               <Nav className="ms-auto">
 
-                <Link className="nav-link" to="/">Home</Link> 
-                <Link className="nav-link" to="/about">About</Link> 
-                <Link className="nav-link" to="/portfolio">Portfolio</Link> 
-                <Link className="nav-link" to="/contact">Contact</Link>
-                <Link className="nav-link" to="/resume">Resume</Link> 
+                <Link className="nav-link" color="#fff" to="/">Home</Link> 
+                <Link className="nav-link" color="#fff" to="/about">About</Link> 
+                <Link className="nav-link" color="#fff" to="/portfolio">Portfolio</Link> 
+                <Link className="nav-link" color="#fff" to="/contact">Contact</Link>
+                <Link className="nav-link" color="#fff" to="/resume">Resume</Link> 
 
               </Nav>
             </NavbarCollapse>
