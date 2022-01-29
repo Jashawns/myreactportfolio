@@ -1,9 +1,7 @@
 // import { Carousel } from 'bootstrap';
 import React from 'react';
-import Carousel from '../components/Carousel';
 import Hero from '../components/Hero';
 import myImage from '../assets/images/myImage.jpeg';
-import { Col} from 'react-bootstrap';
 
 
 function HomePage(props) {

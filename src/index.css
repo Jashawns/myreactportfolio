@@ -18,12 +18,12 @@ body {
 
 
 .mt-5, .navbar {
-  background-image: url('../src/assets/images/swirl.jpeg');
+  background-image: url('../src/assets/images/swirls.jpeg');
   font-family: "Poor Richard";
   font-size: 24px;
   font-display: #fff;
   font-weight: bolder;
-  color: #fff;
+  color: rgb(7, 6, 6);
 
 }
 
