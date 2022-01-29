@@ -9,6 +9,7 @@ import Nav from 'react-bootstrap/Nav';
 import Switch from 'react-bootstrap/Switch';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
+import PortfolioPage from './pages/PortfolioPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import ResumePage from './pages/ResumePage';
@@ -23,6 +24,7 @@ class App extends React.Component {
       headerlinks: [
         {title: 'Home', path: '/'},
         {title: 'About', path: '/about'},
+        {title: 'Portfolio', path: '/portfolio'},
         {title: 'Contact', path: '/contact'},
         {title: 'Resume', path: '/resume'},
       ], 
@@ -34,6 +36,10 @@ class App extends React.Component {
       about: {
         title: 'About Me'
       },
+      Portfolio: {
+        title: 'Knowledge Base',
+        subTitle: 'Projects that make a difference',
+      }, 
       contact: {
         title: 'Let\'s Talk'
       }, 
@@ -58,6 +64,7 @@ class App extends React.Component {
 
                 <Link className="nav-link" to="/">Home</Link> 
                 <Link className="nav-link" to="/about">About</Link> 
+                <Link className="nav-link" to="/portfolio">Portfolio</Link> 
                 <Link className="nav-link" to="/contact">Contact</Link>
                 <Link className="nav-link" to="/resume">Resume</Link> 
 
@@ -68,11 +75,12 @@ class App extends React.Component {
 
             <Switch>
             <Routes>
-{/* 
-            <Route exact path="/" element={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} /> */}
-            <Route exact path="/" element={ <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/> } />
+
+            <Route exact path="/" element={ <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} /> } />
 
             <Route path="/about" element={ <AboutPage title={this.state.home.title} /> } />
+
+            <Route path="/portfolio" element={ <PortfolioPage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/> } />
 
             <Route path="/contact" element={ <ContactPage title={this.state.home.title} /> } />
 
