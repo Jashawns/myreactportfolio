@@ -23,7 +23,7 @@ class Carousel extends React.Component {
                     title: 'Dev Grub', 
                     subTitle: 'The cookbook for developers',
                     imgSrc: bookSearch, 
-                    link: 'https://github.com/Jashawns/Book_Search_Engine', 
+                    link: 'https://github.com/Jashawns/Book_Search_Engine/', 
                     selected: false
                 },
                 {
@@ -31,7 +31,7 @@ class Carousel extends React.Component {
                     title: 'Garrett Love', 
                     subTitle: 'YouTube channel',
                     imgSrc: bookworm, 
-                    link: 'https://github.com/pgurung95/Boolean_Bookworm', 
+                    link: 'https://github.com/pgurung95/Boolean_Bookworm/', 
                     selected: false
                 },
                 {
@@ -39,7 +39,7 @@ class Carousel extends React.Component {
                     title: 'Evverest', 
                     subTitle: 'A social network for developers',
                     imgSrc: CodeQuiz, 
-                    link: 'https://github.com/Jashawns/codeQuiz', 
+                    link: 'https://github.com/Jashawns/codeQuiz/', 
                     selected: false
                 },
                 {
@@ -47,7 +47,7 @@ class Carousel extends React.Component {
                     title: 'Dev Grub', 
                     subTitle: 'The cookbook for developers',
                     imgSrc: noteTaker, 
-                    link: 'https://github.com/Jashawns/note_taker', 
+                    link: 'https://github.com/Jashawns/note_taker/', 
                     selected: false
                 },
                 {
@@ -55,7 +55,7 @@ class Carousel extends React.Component {
                     title: 'Garrett Love', 
                     subTitle: 'YouTube channel',
                     imgSrc: scheduler, 
-                    link: 'https://github.com/Jashawns/workDayScheduler.git', 
+                    link: 'https://github.com/Jashawns/workDayScheduler.git/', 
                     selected: false
                 },
                 {
@@ -63,7 +63,7 @@ class Carousel extends React.Component {
                     title: 'Evverest', 
                     subTitle: 'A social network for developers',
                     imgSrc: team, 
-                    link: 'https://github.com/Jashawns/team_profile_generator', 
+                    link: 'https://github.com/Jashawns/team_profile_generator/', 
                     selected: false
                 },
                 {
@@ -71,7 +71,7 @@ class Carousel extends React.Component {
                     title: 'Evverest', 
                     subTitle: 'A social network for developers',
                     imgSrc: weather, 
-                    link: 'https://github.com/Jashawns/weather_dashboard', 
+                    link: 'https://github.com/Jashawns/weather_dashboard/', 
                     selected: false
                 },
                 {
@@ -79,7 +79,7 @@ class Carousel extends React.Component {
                     title: 'Evverest', 
                     subTitle: 'A social network for developers',
                     imgSrc: workTracker, 
-                    link: 'https://github.com/Jashawns/workout_tracker', 
+                    link: 'https://github.com/Jashawns/workout_tracker/', 
                     selected: false
                 },
                 {
@@ -87,7 +87,7 @@ class Carousel extends React.Component {
                     title: 'Evverest', 
                     subTitle: 'A social network for developers',
                     imgSrc: yoda, 
-                    link: 'https://github.com/caitbopp/yoda-advice', 
+                    link: 'https://github.com/caitbopp/yoda-advice/', 
                     selected: false
                 },
             ]

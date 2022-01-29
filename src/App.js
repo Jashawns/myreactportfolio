@@ -49,10 +49,10 @@ class App extends React.Component {
           <Container className="p-0" fluid={true}>
             <p>Hi from Jashawn's React</p>
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Testing Navbar</Navbar.Brand>
+            <NavbarBrand>Testing Navbar</NavbarBrand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
-            <Navbar.Collapse id="navbar-toggle">
+            <NavbarCollapse id="navbar-toggle">
             {/* react router */}
               <Nav className="ms-auto">
 
@@ -62,7 +62,7 @@ class App extends React.Component {
                 <Link className="nav-link" to="/resume">Resume</Link> 
 
               </Nav>
-            </Navbar.Collapse>
+            </NavbarCollapse>
 
             </Navbar>
 
