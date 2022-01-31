@@ -1,6 +1,5 @@
 import React from 'react';
-import Hero from '../components/Hero'
-// import Container from 'react-bootstrap/Container';
+import Project from '../components/Project'
 import { IoPersonCircleSharp } from "react-icons/io5";
 import Content from '../components/Content';
 
@@ -10,7 +9,7 @@ function AboutPage(props) {
 
         <div>
 
-            <Hero title={props.title} />
+            <Project title={props.title} />
 
                 <Content>
                 

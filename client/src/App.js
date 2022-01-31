@@ -13,9 +13,7 @@ import PortfolioPage from './pages/Portfolio';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import ResumePage from './pages/ResumePage';
-// import Hero from './components/Hero';
 
-// navbar
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -29,8 +27,8 @@ class App extends React.Component {
         {title: 'Resume', path: '/resume'},
       ], 
       home: {
-        title: 'Be Relentless:',
-        subTitle: 'Projects that make a difference',
+        title: 'Be Ever Evolving:',
+        subTitle: 'Programming never stops so projects should be the same',
       }, 
       about: {
         title: 'About Me:'

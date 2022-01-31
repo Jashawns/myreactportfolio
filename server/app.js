@@ -22,7 +22,7 @@ app.post('/api/email', (req,res, next) => {
     sendGrid.setApiKey('SG.FQ3IB-U-Q02QiGvJ7tW-Sg.Okw7V4gdft0SdgkVSOACUg9_uhiS5O-X-VW29WMiH2A');
     const msg = {
         to: 'jashawnstewart@gmail.com',
-        from: 'jashawnstewart@gmail.com',
+        from: req.body.email,
         subject: 'Website Contact',
         text: req.body.message,
         html:'<strong>and easy to do anywhere, even with Node.js</strong>'

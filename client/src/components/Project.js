@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col} from 'react-bootstrap';
 
 
-function Hero(props) {
+function Project(props) {
 
     return(
         <Row className="bg-transparent container-fluid p-0">
@@ -20,4 +20,4 @@ function Hero(props) {
 
 }
 
-export default Hero;
+export default Project;
