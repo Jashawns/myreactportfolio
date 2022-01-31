@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/myreactportfolio/static/css/main.5a73b880.chunk.css",
+    "main.js": "/myreactportfolio/static/js/main.4f72b863.chunk.js",
+    "main.js.map": "/myreactportfolio/static/js/main.4f72b863.chunk.js.map",
+    "runtime-main.js": "/myreactportfolio/static/js/runtime-main.0ef7aaa7.js",
+    "runtime-main.js.map": "/myreactportfolio/static/js/runtime-main.0ef7aaa7.js.map",
+    "static/css/2.9bbc35ba.chunk.css": "/myreactportfolio/static/css/2.9bbc35ba.chunk.css",
+    "static/js/2.d37b9f24.chunk.js": "/myreactportfolio/static/js/2.d37b9f24.chunk.js",
+    "static/js/2.d37b9f24.chunk.js.map": "/myreactportfolio/static/js/2.d37b9f24.chunk.js.map",
+    "static/js/3.22a8ab16.chunk.js": "/myreactportfolio/static/js/3.22a8ab16.chunk.js",
+    "static/js/3.22a8ab16.chunk.js.map": "/myreactportfolio/static/js/3.22a8ab16.chunk.js.map",
+    "index.html": "/myreactportfolio/index.html",
+    "static/css/2.9bbc35ba.chunk.css.map": "/myreactportfolio/static/css/2.9bbc35ba.chunk.css.map",
+    "static/css/main.5a73b880.chunk.css.map": "/myreactportfolio/static/css/main.5a73b880.chunk.css.map",
+    "static/js/2.d37b9f24.chunk.js.LICENSE.txt": "/myreactportfolio/static/js/2.d37b9f24.chunk.js.LICENSE.txt",
+    "static/media/CodeQuiz.89747c71.png": "/myreactportfolio/static/media/CodeQuiz.89747c71.png",
+    "static/media/bookSearch.eeb840b6.png": "/myreactportfolio/static/media/bookSearch.eeb840b6.png",
+    "static/media/bookworm.4cc1e8cc.png": "/myreactportfolio/static/media/bookworm.4cc1e8cc.png",
+    "static/media/myImage.bde6f7a0.jpeg": "/myreactportfolio/static/media/myImage.bde6f7a0.jpeg",
+    "static/media/noteTaker.31c92e81.png": "/myreactportfolio/static/media/noteTaker.31c92e81.png",
+    "static/media/passwordGen.0aa45074.png": "/myreactportfolio/static/media/passwordGen.0aa45074.png",
+    "static/media/scheduler.4a844582.png": "/myreactportfolio/static/media/scheduler.4a844582.png",
+    "static/media/team.b1168ced.png": "/myreactportfolio/static/media/team.b1168ced.png",
+    "static/media/weather.6faf9982.png": "/myreactportfolio/static/media/weather.6faf9982.png",
+    "static/media/workTracker.86f93aa7.png": "/myreactportfolio/static/media/workTracker.86f93aa7.png",
+    "static/media/yoda.a6d1d9a3.png": "/myreactportfolio/static/media/yoda.a6d1d9a3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ef7aaa7.js",
+    "static/css/2.9bbc35ba.chunk.css",
+    "static/js/2.d37b9f24.chunk.js",
+    "static/css/main.5a73b880.chunk.css",
+    "static/js/main.4f72b863.chunk.js"
+  ]
+}
