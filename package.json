@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/Jashawns/myreactportfolio.git"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack-dev-server --mode=development",
+    "start" "node server.js"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",
