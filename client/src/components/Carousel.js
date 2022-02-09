@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Card from '../components/Card';
+import Card from './Card';
 import bookSearch from '../assets/images/bookSearch.png';
 import bookworm from '../assets/images/bookworm.png';
 import CodeQuiz from '../assets/images/CodeQuiz.png';
