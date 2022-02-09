@@ -13,6 +13,7 @@
     "framer-motion": "^4.1.17",
     "materialize": "^1.0.0",
     "materialize-css": "^1.0.0",
+    "node.js": "^0.0.1-security",
     "react-bootstrap": "^2.1.1",
     "react-color": "^2.19.3",
     "react-color-palette": "^6.2.0",
